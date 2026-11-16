@@ -1,11 +1,11 @@
-# Guideline gán nhãn (bản cá nhân) — 2A202603145 - Lê Văn Trung Tính
+# Guideline gán nhãn (bản cá nhân) — Lê Văn Trung Tính (mã 145)
 
 > Bản viết lại cá nhân từ `guideline/guideline_v0_starter.md`. ĐỪNG sửa file này sau cuộc họp Pha 2 —
 > bản thống nhất nằm ở `submission/guidelines/guideline_v1.0_agreed.md`.
 
 - Phiên bản: v0-draft cá nhân
 - Ngày: 2026-11-16
-- Người viết: Lê Văn Trung Tính (2A202603145)
+- Người viết: Lê Văn Trung Tính ((mã 145))
 
 ## 1. Mục tiêu
 Mô hình nào dùng nhãn này, để làm gì, sai ở đâu thì nguy hiểm.

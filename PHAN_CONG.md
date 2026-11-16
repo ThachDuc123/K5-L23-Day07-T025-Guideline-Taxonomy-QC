@@ -8,17 +8,17 @@
 
 | Người | MSHV | Vai trò chính |
 |---|---|---|
-| **A — Thạch Trung Đức** | 2A202603141 | Trưởng nhóm + Admin CVAT |
-| **B — Lê Văn Trung Tính** | 2A202603145 | Owner guideline & taxonomy |
-| **C — Đinh Quang Thắng** | 2A202603152 | Owner QC & nộp bài |
+| **A — Thạch Trung Đức** | (mã 141) | Trưởng nhóm + Admin CVAT |
+| **B — Lê Văn Trung Tính** | (mã 145) | Owner guideline & taxonomy |
+| **C — Đinh Quang Thắng** | (mã 152) | Owner QC & nộp bài |
 
 Quy ước tên file cá nhân (không dấu viết liền):
-`2A202603141_ThachTrungDuc` · `2A202603145_LeVanTrungTinh` · `2A202603152_DinhQuangThang`
+`(mã 141)_ThachTrungDuc` · `(mã 145)_LeVanTrungTinh` · `(mã 152)_DinhQuangThang`
 
 Lệnh chia ảnh (chạy đúng 1 lần, seed mặc định 42 — mọi người phải ra cùng một bảng chia):
 
 ```bash
-python scripts/split_assign.py --members 2A202603145,2A202603152,2A202603141 --copy-images
+python scripts/split_assign.py --members 141,145,152 --copy-images
 ```
 
 Nhóm 3 người → **mỗi ảnh được 2 người gán độc lập** (K=2).
@@ -34,8 +34,8 @@ Nhóm 3 người → **mỗi ảnh được 2 người gán độc lập** (K=2)
 
 ### A2 · Pha 1 — Guideline cá nhân (~35')
 - [ ] Xem hết 40 ảnh `data/images/`
-- [ ] Viết xong `submission/guidelines/individual/guideline_2A202603141_ThachTrungDuc.md`
-- [ ] Bắt đầu điền `submission/individual_notes/2A202603141_ThachTrungDuc.md` (mục Pha 1)
+- [ ] Viết xong `submission/guidelines/individual/guideline_(mã 141)_ThachTrungDuc.md`
+- [ ] Bắt đầu điền `submission/individual_notes/(mã 141)_ThachTrungDuc.md` (mục Pha 1)
 - [ ] Commit + push file của mình
 
 ### A3 · Pha 2 — Họp thống nhất (cùng cả nhóm, A điều phối)
@@ -46,7 +46,7 @@ Nhóm 3 người → **mỗi ảnh được 2 người gán độc lập** (K=2)
 - [ ] Chạy lệnh `split_assign.py` ở trên, commit `submission/qc/` (báo nhóm pull)
 - [ ] Tạo **Project CVAT** với nhãn từ `cvat/labels_generated.json` (theo `docs/CVAT_SETUP.md`)
 - [ ] Hỗ trợ B, C tạo Task + upload đúng ảnh của `submission/qc/assignments/<MSHV>.txt`
-- [ ] Gán nhãn xong ảnh của mình → export COCO → `submission/labels/2A202603141_ThachTrungDuc.json`
+- [ ] Gán nhãn xong ảnh của mình → export COCO → `submission/labels/141.json`
 - [ ] Chạy `python scripts/validate_labels.py --all` sạch rồi mới push
 
 ### A5 · Pha 4 — Đo IAA (cùng cả nhóm)
@@ -68,8 +68,8 @@ Nhóm 3 người → **mỗi ảnh được 2 người gán độc lập** (K=2)
 
 ### B2 · Pha 1 — Guideline cá nhân (~35')
 - [ ] Xem hết 40 ảnh `data/images/`
-- [ ] Viết xong `submission/guidelines/individual/guideline_2A202603145_LeVanTrungTinh.md`
-- [ ] Bắt đầu điền `submission/individual_notes/2A202603145_LeVanTrungTinh.md`
+- [ ] Viết xong `submission/guidelines/individual/guideline_(mã 145)_LeVanTrungTinh.md`
+- [ ] Bắt đầu điền `submission/individual_notes/(mã 145)_LeVanTrungTinh.md`
 - [ ] Commit + push file của mình
 
 ### B3 · Pha 2 — Soạn guideline v1.0 (sau cuộc họp, ~30')
@@ -81,7 +81,7 @@ Nhóm 3 người → **mỗi ảnh được 2 người gán độc lập** (K=2)
 
 ### B4 · Pha 3 — Gán nhãn (60')
 - [ ] Upload đúng ảnh của mình vào Task CVAT, gán theo guideline v1.0, **không xem nhãn của ai**
-- [ ] Export COCO → `submission/labels/2A202603145_LeVanTrungTinh.json`
+- [ ] Export COCO → `submission/labels/145.json`
 - [ ] `validate_labels.py --all` sạch rồi mới push
 
 ### B5 · Pha 4 — Chạy script IAA (~20')
@@ -105,8 +105,8 @@ Nhóm 3 người → **mỗi ảnh được 2 người gán độc lập** (K=2)
 
 ### C2 · Pha 1 — Guideline cá nhân (~35')
 - [ ] Xem hết 40 ảnh `data/images/`
-- [ ] Viết xong `submission/guidelines/individual/guideline_2A202603152_DinhQuangThang.md`
-- [ ] Bắt đầu điền `submission/individual_notes/2A202603152_DinhQuangThang.md`
+- [ ] Viết xong `submission/guidelines/individual/guideline_(mã 152)_DinhQuangThang.md`
+- [ ] Bắt đầu điền `submission/individual_notes/(mã 152)_DinhQuangThang.md`
 - [ ] Commit + push file của mình
 
 ### C3 · Pha 2 — Họp thống nhất (cùng cả nhóm)
@@ -114,7 +114,7 @@ Nhóm 3 người → **mỗi ảnh được 2 người gán độc lập** (K=2)
 
 ### C4 · Pha 3 — Gán nhãn (60')
 - [ ] Upload đúng ảnh của mình vào Task CVAT, gán theo guideline v1.0, **không xem nhãn của ai**
-- [ ] Export COCO → `submission/labels/2A202603152_DinhQuangThang.json`
+- [ ] Export COCO → `submission/labels/152.json`
 - [ ] `validate_labels.py --all` sạch rồi mới push
 
 ### C5 · Pha 4 — Phân tích bất thường (cùng cả nhóm)

@@ -1,11 +1,11 @@
-# Guideline gán nhãn (bản cá nhân) — 2A202603141 - Thạch Trung Đức
+# Guideline gán nhãn (bản cá nhân) — Đinh Quang Thắng (mã 152)
 
 > Bản viết lại cá nhân từ `guideline/guideline_v0_starter.md`. ĐỪNG sửa file này sau cuộc họp Pha 2 —
 > bản thống nhất nằm ở `submission/guidelines/guideline_v1.0_agreed.md`.
 
 - Phiên bản: v0-draft cá nhân
 - Ngày: 2026-11-16
-- Người viết: Thạch Trung Đức (2A202603141)
+- Người viết: Đinh Quang Thắng ((mã 152))
 
 ## 1. Mục tiêu
 Mô hình nào dùng nhãn này, để làm gì, sai ở đâu thì nguy hiểm.
