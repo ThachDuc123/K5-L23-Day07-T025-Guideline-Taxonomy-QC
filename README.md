@@ -1,4 +1,4 @@
-# Day 07 Lab — Guideline, Taxonomy & QC
+# Day 07 Lab — Nhóm T025: 2A202603145 - Lê Văn Trung Tính, 2A202603152 - Đinh Quang Thắng, 2A202603141 - Thạch Trung Đức
 
 **Nhóm 2–5 người · 4 giờ · 40 ảnh đường phố châu Á · gán box bằng CVAT**
 

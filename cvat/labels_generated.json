@@ -29,8 +29,7 @@
         "name": "can_review",
         "mutable": false,
         "input_type": "checkbox",
-        "default_value": "false",
-        "values": []
+        "default_value": "false"
       }
     ]
   },
@@ -64,8 +63,7 @@
         "name": "can_review",
         "mutable": false,
         "input_type": "checkbox",
-        "default_value": "false",
-        "values": []
+        "default_value": "false"
       }
     ]
   },
@@ -99,13 +97,12 @@
         "name": "can_review",
         "mutable": false,
         "input_type": "checkbox",
-        "default_value": "false",
-        "values": []
+        "default_value": "false"
       }
     ]
   },
   {
-    "name": "motorcycle",
+    "name": "bus",
     "color": "#f58231",
     "attributes": [
       {
@@ -134,13 +131,12 @@
         "name": "can_review",
         "mutable": false,
         "input_type": "checkbox",
-        "default_value": "false",
-        "values": []
+        "default_value": "false"
       }
     ]
   },
   {
-    "name": "person",
+    "name": "motorcycle",
     "color": "#911eb4",
     "attributes": [
       {
@@ -169,8 +165,211 @@
         "name": "can_review",
         "mutable": false,
         "input_type": "checkbox",
-        "default_value": "false",
-        "values": []
+        "default_value": "false"
+      }
+    ]
+  },
+  {
+    "name": "bicycle",
+    "color": "#46c8c8",
+    "attributes": [
+      {
+        "name": "occluded_level",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "0",
+        "values": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "name": "truncated",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "no",
+        "values": [
+          "no",
+          "yes"
+        ]
+      },
+      {
+        "name": "can_review",
+        "mutable": false,
+        "input_type": "checkbox",
+        "default_value": "false"
+      }
+    ]
+  },
+  {
+    "name": "tuktuk",
+    "color": "#f032e6",
+    "attributes": [
+      {
+        "name": "occluded_level",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "0",
+        "values": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "name": "truncated",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "no",
+        "values": [
+          "no",
+          "yes"
+        ]
+      },
+      {
+        "name": "can_review",
+        "mutable": false,
+        "input_type": "checkbox",
+        "default_value": "false"
+      }
+    ]
+  },
+  {
+    "name": "person",
+    "color": "#9a6324",
+    "attributes": [
+      {
+        "name": "occluded_level",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "0",
+        "values": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "name": "truncated",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "no",
+        "values": [
+          "no",
+          "yes"
+        ]
+      },
+      {
+        "name": "can_review",
+        "mutable": false,
+        "input_type": "checkbox",
+        "default_value": "false"
+      }
+    ]
+  },
+  {
+    "name": "statue",
+    "color": "#808000",
+    "attributes": [
+      {
+        "name": "occluded_level",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "0",
+        "values": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "name": "truncated",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "no",
+        "values": [
+          "no",
+          "yes"
+        ]
+      },
+      {
+        "name": "can_review",
+        "mutable": false,
+        "input_type": "checkbox",
+        "default_value": "false"
+      }
+    ]
+  },
+  {
+    "name": "display_vehicle",
+    "color": "#008080",
+    "attributes": [
+      {
+        "name": "occluded_level",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "0",
+        "values": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "name": "truncated",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "no",
+        "values": [
+          "no",
+          "yes"
+        ]
+      },
+      {
+        "name": "can_review",
+        "mutable": false,
+        "input_type": "checkbox",
+        "default_value": "false"
+      }
+    ]
+  },
+  {
+    "name": "non_real",
+    "color": "#800000",
+    "attributes": [
+      {
+        "name": "occluded_level",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "0",
+        "values": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "name": "truncated",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "no",
+        "values": [
+          "no",
+          "yes"
+        ]
+      },
+      {
+        "name": "can_review",
+        "mutable": false,
+        "input_type": "checkbox",
+        "default_value": "false"
       }
     ]
   },

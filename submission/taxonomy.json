@@ -1,13 +1,19 @@
 {
-  "version": "v0",
+  "version": "v1.0",
   "ignore_class": "ignore_region",
   "classes": [
-    {"name": "car", "definition": "Ô tô con, SUV."},
-    {"name": "truck", "definition": "Xe tải, xe có thùng hàng riêng."},
-    {"name": "van", "definition": "Xe thùng kín cỡ nhỏ."},
-    {"name": "motorcycle", "definition": "Xe máy, mô tô."},
-    {"name": "person", "definition": "Người đi bộ hoặc người ngồi trên xe."},
-    {"name": "ignore_region", "definition": "Vùng bỏ qua (không phải vật): nơi không gán từng vật, bỏ sót ở đây không tính là lỗi."}
+    {"name": "car", "definition": "Ô tô con, SUV, hatchback, sedan chạy ngoài đường phố (kể cả xe diễu tự chế chạy được, có biển số); gồm cả xe điện kín 4 bánh trong khu nghỉ dưỡng (người ngồi trong khoang kín không gán person)."},
+    {"name": "truck", "definition": "Xe tải, xe bán tải (pickup), kei truck — xe có thùng hàng riêng."},
+    {"name": "van", "definition": "Xe thùng kín cỡ nhỏ, minivan, xe nhiều chỗ dạng thùng kín nhỏ."},
+    {"name": "bus", "definition": "Xe khách/xe bus lớn nhiều chỗ, xe bus công cộng."},
+    {"name": "motorcycle", "definition": "Xe máy, mô tô, vespa; xe máy có sidecar gán chung 1 box; quad/xe điện kiểu cưỡi ngoài thân xe cũng xếp lớp này (người cưỡi ngoài thì gán person)."},
+    {"name": "bicycle", "definition": "Xe đạp 2 bánh; cyclo/xích lô đạp 3 bánh cũng xếp lớp này."},
+    {"name": "tuktuk", "definition": "Xe ba bánh chở khách có động cơ kiểu auto-rickshaw / tuk-tuk / xe lam / ba gác máy: một box ôm cả thân và mui; người ngồi dưới mui không gán person, người cưỡi ngoài thì gán."},
+    {"name": "person", "definition": "Người thật: đi bộ, đứng, ngồi, lái xe, hành khách trên xe. Chỉ gán người cưỡi/ngồi ngoài thân xe hoặc đi bộ; người ngồi trong khoang kín (ôtô, tuktuk dưới mui, xe điện kín) không gán."},
+    {"name": "statue", "definition": "Tượng (người, động vật, xe) bằng bất kỳ chất liệu — không phải vật thật."},
+    {"name": "display_vehicle", "definition": "Xe đồ chơi / mô hình / xe trưng bày trong bảo tàng, triển lãm, tủ kính — kể cả xe thật nhưng chỉ để trưng bày, không tham gia giao thông."},
+    {"name": "non_real", "definition": "Hình ảnh không thật trong khung cảnh: ma-nơ-canh, người/vật in trên poster, billboard, mural, phản chiếu trong gương hoặc kính."},
+    {"name": "ignore_region", "definition": "Vùng bỏ qua (không phải vật): đám đông/bãi xe dày đặc không đếm được từng vật; bỏ sót ở đây không tính là lỗi."}
   ],
   "attributes": [
     {"name": "occluded_level", "type": "select", "values": ["0", "1", "2", "3"], "default": "0"},

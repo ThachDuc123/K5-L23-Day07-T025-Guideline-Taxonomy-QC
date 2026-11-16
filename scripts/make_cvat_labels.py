@@ -24,13 +24,16 @@ def main() -> None:
         attrs = []
         if name != tax.ignore:
             for a in tax.attrs.values():
-                attrs.append({
+                attr = {
                     "name": a["name"],
                     "mutable": False,
                     "input_type": a["type"],
                     "default_value": str(a.get("default", "")),
-                    "values": [str(v) for v in a.get("values", [])] if a["type"] == "select" else [],
-                })
+                }
+                # CVAT yêu cầu values không rỗng với select; checkbox không được có key values
+                if a["type"] == "select":
+                    attr["values"] = [str(v) for v in a.get("values", [])]
+                attrs.append(attr)
         labels.append({"name": name, "color": "#808080" if name == tax.ignore else COLORS[i % len(COLORS)],
                        "attributes": attrs})
     text = json.dumps(labels, ensure_ascii=False, indent=2)
