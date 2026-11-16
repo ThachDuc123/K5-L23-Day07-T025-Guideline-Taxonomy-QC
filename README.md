@@ -1,4 +1,4 @@
-# Day 07 Lab — Nhóm T025 (mã thành viên: 141, 145, 152)
+# Day 07 Lab — Nhóm T025 (mã thành viên: 135, 141, 145, 152)
 
 **Nhóm 2–5 người · 4 giờ · 40 ảnh đường phố · gán box bằng CVAT**
 
