@@ -3,8 +3,8 @@
 > Bản viết lại cá nhân từ `guideline/guideline_v0_starter.md`. ĐỪNG sửa file này sau cuộc họp Pha 2 —
 > bản thống nhất nằm ở `submission/guidelines/guideline_v1.0_agreed.md`.
 
-- Phiên bản: v0-draft cá nhân
-- Ngày: 2026-11-16
+- Phiên bản:  cá nhân
+- Ngày: 16/11/2026
 - Người viết: Thạch Trung Đức (mã 141)
 
 
