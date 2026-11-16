@@ -32,11 +32,14 @@ def main() -> None:
                     "input_type": a["type"],
                     "default_value": str(a.get("default", "")),
                 }
-                # CVAT yêu cầu values không rỗng với select; checkbox không được có key values
+                # CVAT yêu cầu values là mảng không rỗng với mọi thuộc tính:
+                # select -> danh sách mức; checkbox -> một phần tử là giá trị mặc định ("false"/"true")
                 if a["type"] == "select":
                     attr["values"] = [str(v) for v in a.get("values", [])]
+                elif a["type"] == "checkbox":
+                    attr["values"] = [attr["default_value"].lower() or "false"]
                 attrs.append(attr)
-        labels.append({"name": name, "color": "#808080" if name == tax.ignore else COLORS[i % len(COLORS)],
+        labels.append({"name": name, "type": "rectangle", "color": "#808080" if name == tax.ignore else COLORS[i % len(COLORS)],
                        "attributes": attrs})
     text = json.dumps(labels, ensure_ascii=False, indent=2)
     out = ROOT / "cvat" / ("labels_final.json" if args.final else "labels_generated.json")

@@ -1,6 +1,7 @@
 [
   {
     "name": "car",
+    "type": "rectangle",
     "color": "#e6194b",
     "attributes": [
       {
@@ -29,12 +30,16 @@
         "name": "can_review",
         "mutable": false,
         "input_type": "checkbox",
-        "default_value": "false"
+        "default_value": "false",
+        "values": [
+          "false"
+        ]
       }
     ]
   },
   {
     "name": "truck",
+    "type": "rectangle",
     "color": "#3cb44b",
     "attributes": [
       {
@@ -63,12 +68,16 @@
         "name": "can_review",
         "mutable": false,
         "input_type": "checkbox",
-        "default_value": "false"
+        "default_value": "false",
+        "values": [
+          "false"
+        ]
       }
     ]
   },
   {
     "name": "van",
+    "type": "rectangle",
     "color": "#4363d8",
     "attributes": [
       {
@@ -97,12 +106,16 @@
         "name": "can_review",
         "mutable": false,
         "input_type": "checkbox",
-        "default_value": "false"
+        "default_value": "false",
+        "values": [
+          "false"
+        ]
       }
     ]
   },
   {
     "name": "bus",
+    "type": "rectangle",
     "color": "#f58231",
     "attributes": [
       {
@@ -131,12 +144,16 @@
         "name": "can_review",
         "mutable": false,
         "input_type": "checkbox",
-        "default_value": "false"
+        "default_value": "false",
+        "values": [
+          "false"
+        ]
       }
     ]
   },
   {
     "name": "motorcycle",
+    "type": "rectangle",
     "color": "#911eb4",
     "attributes": [
       {
@@ -165,12 +182,16 @@
         "name": "can_review",
         "mutable": false,
         "input_type": "checkbox",
-        "default_value": "false"
+        "default_value": "false",
+        "values": [
+          "false"
+        ]
       }
     ]
   },
   {
     "name": "bicycle",
+    "type": "rectangle",
     "color": "#46c8c8",
     "attributes": [
       {
@@ -199,12 +220,16 @@
         "name": "can_review",
         "mutable": false,
         "input_type": "checkbox",
-        "default_value": "false"
+        "default_value": "false",
+        "values": [
+          "false"
+        ]
       }
     ]
   },
   {
     "name": "tuktuk",
+    "type": "rectangle",
     "color": "#f032e6",
     "attributes": [
       {
@@ -233,12 +258,16 @@
         "name": "can_review",
         "mutable": false,
         "input_type": "checkbox",
-        "default_value": "false"
+        "default_value": "false",
+        "values": [
+          "false"
+        ]
       }
     ]
   },
   {
     "name": "person",
+    "type": "rectangle",
     "color": "#9a6324",
     "attributes": [
       {
@@ -267,12 +296,16 @@
         "name": "can_review",
         "mutable": false,
         "input_type": "checkbox",
-        "default_value": "false"
+        "default_value": "false",
+        "values": [
+          "false"
+        ]
       }
     ]
   },
   {
     "name": "statue",
+    "type": "rectangle",
     "color": "#808000",
     "attributes": [
       {
@@ -301,12 +334,16 @@
         "name": "can_review",
         "mutable": false,
         "input_type": "checkbox",
-        "default_value": "false"
+        "default_value": "false",
+        "values": [
+          "false"
+        ]
       }
     ]
   },
   {
     "name": "display_vehicle",
+    "type": "rectangle",
     "color": "#008080",
     "attributes": [
       {
@@ -335,12 +372,16 @@
         "name": "can_review",
         "mutable": false,
         "input_type": "checkbox",
-        "default_value": "false"
+        "default_value": "false",
+        "values": [
+          "false"
+        ]
       }
     ]
   },
   {
     "name": "non_real",
+    "type": "rectangle",
     "color": "#800000",
     "attributes": [
       {
@@ -369,12 +410,16 @@
         "name": "can_review",
         "mutable": false,
         "input_type": "checkbox",
-        "default_value": "false"
+        "default_value": "false",
+        "values": [
+          "false"
+        ]
       }
     ]
   },
   {
     "name": "ignore_region",
+    "type": "rectangle",
     "color": "#808080",
     "attributes": []
   }
