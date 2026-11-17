@@ -1,0 +1,3 @@
+# Giữ nguyên byte (kể cả CRLF) của file đầu vào/bằng chứng để SHA-256 khớp trên mọi máy
+submission/** -text
+data/** -text
