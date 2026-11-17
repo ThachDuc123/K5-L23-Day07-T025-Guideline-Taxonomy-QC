@@ -3,13 +3,13 @@
 > Bản viết lại cá nhân từ `guideline/guideline_v0_starter.md`. ĐỪNG sửa file này sau cuộc họp Pha 2 —
 > bản thống nhất nằm ở `submission/guidelines/guideline_v1.0_agreed.md`.
 
-- Phiên bản: v0-draft cá nhân
-- Ngày: 2026-11-16
+- Phiên bản: v0
+- Ngày: 16/11/2026
 - Người viết: Đinh Quang Thắng (mã 152)
 
 
 ## 1. Mục tiêu
-Mô hình phát hiện người và phương tiện **thật** trên đường. Tôi giữ taxonomy gần v0 nhất có thể, chỉ thêm `bicycle`; vật không thật thì **không gán** để mô hình không học thêm lớp vô ích.
+Mô hình phát hiện người và phương tiện **thật** trên đường. Giữ taxonomy gần v0 nhất có thể, chỉ thêm `bicycle`; vật không thật thì **không gán** để mô hình không học thêm lớp vô ích.
 (Nhưng: v0 nói "gán mọi người và phương tiện" mà không rõ có tính tượng, đồ chơi không.)
 
 ## 2. Lớp và thuộc tính
