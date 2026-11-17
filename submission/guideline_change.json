@@ -1,4 +1,4 @@
 {
   "kind": "editorial",
-  "summary": "Bản khởi tạo dựa trên guideline v1.0; hiện chưa có thay đổi calibration v1.1 được ghi nhận. Cập nhật kind và summary theo quyết định thực tế của nhóm trước khi chuẩn bị nhãn sau calibration."
+  "summary": "Làm rõ ranh giới câu chữ và quy tắc từ 465 ca IAA (R-01 ngưỡng 20px, R-02 tách person/xe, R-03 van/truck/bus, R-04 motorcycle/bicycle, R-05 non_real phản chiếu kính img_033, R-06 box ôm sát phần nhìn thấy, R-07 occluded_level, R-08 ranh giới ignore_region); giữ nguyên 12 lớp và 3 thuộc tính của taxonomy v1.0."
 }

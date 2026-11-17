@@ -12,9 +12,9 @@
     "assigned": 80
   },
   "inputs": {
-    "submission\\taxonomy.json": "b9855b2a3625d1eca3caf8020e5afdffc07db2c1e190e53a66c090ee49da3408",
-    "submission\\guidelines\\guideline_v1.0_agreed.md": "eeb3b5f15b0bca049e9ed9fefd8fa87a5db569752fd3d62c237995859ff50677",
-    "submission\\qc\\assignment.csv": "6bd5fd26ae7bcbad15b7b923bb21f0082db68a99083df6b5717c536ffe860b8f",
+    "submission\\taxonomy.json": "91f83eb9c7aec6b74859b56eedb451f2b092ba336a43a35fcc8ad1ee38582a91",
+    "submission\\guidelines\\guideline_v1.0_agreed.md": "27926e87ddeb88ce8ebee26444525b94383786573836dc22b6ee0a78027e59a8",
+    "submission\\qc\\assignment.csv": "c34ef27daf637305314984184ac28d497240d027028ab6a8e42743253e923244",
     "submission\\labels\\135.json": "1c9c4a9f83500adf70e5f4f0dcc08e5c8f6808229e2951bebf29b75e23afd3b3",
     "submission\\labels\\141.json": "3e7ba33c588c89f1edbf7392c0669717a68d42cd3c6ba26d6d80b86eea13e512",
     "submission\\labels\\145.json": "8a97d7ac12f541be591030113a2777e184a7c09d4e507044b2f9832dc881ffc6",
@@ -61,7 +61,7 @@
     "data\\images\\img_040.jpg": "e16ee9a3cfe6ea33457e7562b7f7d5bea9f63eee5cce42180ba25282dc004e95"
   },
   "artifacts": {
-    "consensus_draft.json": "f311bd195fa143578549ebd7834fde0c9bd2916cb1e5af9cfcebcea5efee8025",
+    "consensus_draft.json": "e63bbb943752e643aaab058eb021e449653f1a30327dda7a529f698bbc9a0bb2",
     "flagged_images.txt": "19ea8028c3b2ef16dc553a47bd9174ff3a8cc4c2aaabd0596e11e68501a25136",
     "calibration_candidates.csv": "98006e7778925a42e9ac7231a6e8e65dcdff9d775075f9c8a55d7495a29f8cbc"
   },

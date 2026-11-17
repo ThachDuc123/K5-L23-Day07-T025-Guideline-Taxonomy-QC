@@ -33,9 +33,9 @@ Chi tiết A→Z từng pha: [PHAN_CONG.md](PHAN_CONG.md)
 
 ## Kết quả tóm tắt (điền cuối bài)
 
-- Lượt gán hoàn tất / được giao: … / 80 (40 ảnh × 2 người = 4 người × 20 ảnh)
-- IAA trước calibration (kèm mẫu số): IoU trung bình … , đồng thuận lớp … % (mẫu số: …)
-- Số ảnh phải calibration: … / 40
-- Vòng QC và số ảnh đã duyệt / cả lô: …
-- Tỉ lệ lỗi: … % theo ảnh (…/…), … % theo đối tượng (…/…)
-- **Quyết định** (Release / Hold / Rework) và lý do một dòng: …
+- Lượt gán hoàn tất / được giao: 80 / 80 (40 ảnh × 2 người = 4 người × 20 ảnh)
+- IAA trước calibration (kèm mẫu số): IoU trung bình 0.789, đồng thuận lớp 96.8% (mẫu số: 283 cặp box ghép)
+- Số ảnh phải calibration: 38 / 40 (465 ca trong `calibration_candidates.csv`)
+- Vòng QC và số ảnh đã duyệt / cả lô: Vòng 1 — 40 / 40 ảnh
+- Tỉ lệ lỗi: 7.5% theo ảnh (3/40), 0.7% theo đối tượng (3/458)
+- **Quyết định** (Release / Hold / Rework) và lý do một dòng: **Rework** — tỉ lệ ảnh lỗi 3/40 = 7.5% vượt ngưỡng 2% (3 ảnh `img_003.jpg`, `img_010.jpg`, `img_029.jpg` còn lệch từ `consensus_draft`, cần sửa trên CVAT rồi duyệt vòng 2).

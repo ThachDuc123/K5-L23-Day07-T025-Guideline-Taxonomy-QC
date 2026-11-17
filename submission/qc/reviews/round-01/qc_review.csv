@@ -1,0 +1,41 @@
+image,error_type,object_id,reviewer,rule_id,region,note
+img_001.jpg,khong,,135,,,Da doi chieu consensus va quyet dinh v1.1
+img_002.jpg,khong,,141,,,Da doi chieu consensus va quyet dinh v1.1
+img_003.jpg,sai_lop,20,135,R-02,,"Box #20 (motorcycle) ghep lech tu ca C040 person/motorcycle, can tach va sua trong CVAT"
+img_004.jpg,khong,,141,,,Da doi chieu consensus va quyet dinh v1.1
+img_005.jpg,khong,,135,,,Da doi chieu consensus va quyet dinh v1.1
+img_006.jpg,khong,,141,,,Da doi chieu consensus va quyet dinh v1.1
+img_007.jpg,khong,,135,,,Da doi chieu consensus va quyet dinh v1.1
+img_008.jpg,khong,,141,,,Da doi chieu consensus va quyet dinh v1.1
+img_009.jpg,khong,,141,,,Da doi chieu consensus va quyet dinh v1.1
+img_010.jpg,sai_vi_tri_kich_thuoc,133,135,R-06,,"Box #133 (motorcycle) gop tu consensus_draft co IoU lech (C145), can chinh om sat xe trong CVAT"
+img_011.jpg,khong,,135,,,Da doi chieu consensus va quyet dinh v1.1
+img_012.jpg,khong,,141,,,Da doi chieu consensus va quyet dinh v1.1
+img_013.jpg,khong,,135,,,Da doi chieu consensus va quyet dinh v1.1
+img_014.jpg,khong,,141,,,Da doi chieu consensus va quyet dinh v1.1
+img_015.jpg,khong,,145,,,Da doi chieu consensus va quyet dinh v1.1
+img_016.jpg,khong,,135,,,Da doi chieu consensus va quyet dinh v1.1
+img_017.jpg,khong,,135,,,Da doi chieu consensus va quyet dinh v1.1
+img_018.jpg,khong,,141,,,Da doi chieu consensus va quyet dinh v1.1
+img_019.jpg,khong,,135,,,Da doi chieu consensus va quyet dinh v1.1
+img_020.jpg,khong,,145,,,Da doi chieu consensus va quyet dinh v1.1
+img_021.jpg,khong,,141,,,Da doi chieu consensus va quyet dinh v1.1
+img_022.jpg,khong,,135,,,Da doi chieu consensus va quyet dinh v1.1
+img_023.jpg,khong,,135,,,Da doi chieu consensus va quyet dinh v1.1
+img_024.jpg,khong,,141,,,Da doi chieu consensus va quyet dinh v1.1
+img_025.jpg,khong,,141,,,Da doi chieu consensus va quyet dinh v1.1
+img_026.jpg,khong,,135,,,Da doi chieu consensus va quyet dinh v1.1
+img_027.jpg,khong,,135,,,Da doi chieu consensus va quyet dinh v1.1
+img_028.jpg,khong,,145,,,Da doi chieu consensus va quyet dinh v1.1
+img_029.jpg,sai_vi_tri_kich_thuoc,284,135,R-06,,Box #284 (person) can chinh lai ranh gioi om sat va ra lai cap bicycle/motorcycle (C299-C300)
+img_030.jpg,khong,,141,,,Da doi chieu consensus va quyet dinh v1.1
+img_031.jpg,khong,,141,,,Da doi chieu consensus va quyet dinh v1.1
+img_032.jpg,khong,,135,,,Da doi chieu consensus va quyet dinh v1.1
+img_033.jpg,khong,,145,,,Da doi chieu consensus va quyet dinh v1.1
+img_034.jpg,khong,,135,,,Da doi chieu consensus va quyet dinh v1.1
+img_035.jpg,khong,,135,,,Da doi chieu consensus va quyet dinh v1.1
+img_036.jpg,khong,,141,,,Da doi chieu consensus va quyet dinh v1.1
+img_037.jpg,khong,,145,,,Da doi chieu consensus va quyet dinh v1.1
+img_038.jpg,khong,,135,,,Da doi chieu consensus va quyet dinh v1.1
+img_039.jpg,khong,,145,,,Da doi chieu consensus va quyet dinh v1.1
+img_040.jpg,khong,,135,,,Da doi chieu consensus va quyet dinh v1.1
