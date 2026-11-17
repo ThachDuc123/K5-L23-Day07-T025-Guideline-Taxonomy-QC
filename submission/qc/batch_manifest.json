@@ -7,7 +7,7 @@
   "guideline": "submission\\guidelines\\guideline_v1.1_calibrated.md",
   "labels": {
     "path": "submission\\qc\\labels_calibrated.json",
-    "sha256": "9caa29a7a96fbff524c081b0c607842af61417b3a27d42587232137626a7bf56"
+    "sha256": "bba0a2375fca86c67f115cc4acc77175a26037091ecb3da289a054da26429c78"
   },
   "inputs_sha256": {
     "submission\\qc\\assignment.csv": "c34ef27daf637305314984184ac28d497240d027028ab6a8e42743253e923244",
@@ -18,9 +18,9 @@
     "submission\\guideline_change.json": "76382c1cb376df78297826d089eeca11d3903a0beaa2ede1cee324224e54a45a",
     "submission\\taxonomy.json": "91f83eb9c7aec6b74859b56eedb451f2b092ba336a43a35fcc8ad1ee38582a91",
     "data\\ATTRIBUTION.csv": "c31a270de08f6e2862b84df18a4a05e66dc58526086ec61b258b44cda52b7b2c",
-    "submission\\qc\\labels_calibrated_86767b46dbf183cd.json": "e8b75e5823953547eba844ad8b8fc2e383f968d38c95a0d7e4170746e593f33c"
+    "submission\\qc\\labels_calibrated_86767b46dbf183cd.json": "b01655ea7632bb002cc5f267db91d9d8d971f93dcbbedc25c5c02c50543fcdd4"
   },
-  "csv_sha256": "565b5f78aebda8ddf2090d43e46cbb3b8253038417fc28c5a71640289853b524",
+  "csv_sha256": "671495b2ca5833733933d80ab4b56b8e13561df828be5914d7d641864ec06eb6",
   "images": [
     {
       "file": "img_001.jpg",

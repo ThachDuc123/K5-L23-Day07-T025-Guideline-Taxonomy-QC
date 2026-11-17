@@ -18,7 +18,7 @@ img_002.jpg,car,719.27,148.24,108.77,101.39,1,no,calibration
 img_002.jpg,car,148.69,46.0,364.34,158.06,0,no,calibration
 img_002.jpg,car,475.37,86.66,157.27,131.28,1,no,calibration
 img_003.jpg,person,0.0,152.66,84.2,97.78,1,no,calibration
-img_003.jpg,motorcycle,31.41,77.97,77.41,165.59,1,no,calibration
+img_003.jpg,motorcycle,30.0,112.0,76.0,135.0,2,no,calibration
 img_003.jpg,bicycle,0.13,237.85,418.74,352.9,0,yes,calibration
 img_003.jpg,motorcycle,256.56,120.52,166.85,282.5,1,no,calibration
 img_003.jpg,car,274.02,38.19,87.48,52.43,1,no,calibration
@@ -130,7 +130,7 @@ img_009.jpg,motorcycle,810.94,440.41,149.06,99.59,0,yes,calibration
 img_009.jpg,bicycle,797.79,429.41,19.89,38.17,0,no,calibration
 img_009.jpg,motorcycle,776.46,430.99,20.5,38.14,0,no,calibration
 img_009.jpg,motorcycle,708.03,438.76,69.71,38.77,0,no,calibration
-img_010.jpg,motorcycle,595.17,241.62,311.42,370.48,0,no,calibration
+img_010.jpg,motorcycle,598.0,238.0,290.0,380.0,0,no,calibration
 img_010.jpg,motorcycle,0.01,153.54,131.54,218.22,0,no,calibration
 img_010.jpg,motorcycle,759.91,185.58,198.72,268.6,1,no,calibration
 img_010.jpg,person,304.49,108.64,129.99,381.31,1,no,calibration
@@ -276,14 +276,14 @@ img_027.jpg,statue,353.73,204.4,520.74,283.63,0,no,consensus
 img_028.jpg,truck,30.8,294.62,905.38,407.07,0,no,calibration
 img_028.jpg,statue,93.79,168.97,392.67,302.65,0,no,calibration
 img_028.jpg,car,601.69,325.21,307.26,119.35,1,no,calibration
-img_029.jpg,person,611.79,98.56,123.07,293.56,0,no,calibration
+img_029.jpg,person,614.0,110.0,118.0,283.0,0,no,calibration
 img_029.jpg,person,400.25,154.37,105.05,222.17,0,no,calibration
 img_029.jpg,person,97.88,178.56,54.94,94.47,0,no,calibration
 img_029.jpg,person,175.88,168.13,49.0,131.14,0,no,calibration
 img_029.jpg,person,210.96,180.82,46.8,91.19,0,no,calibration
 img_029.jpg,person,341.28,181.23,24.99,46.38,2,no,calibration
 img_029.jpg,person,273.79,188.22,25.38,47.41,1,no,calibration
-img_029.jpg,bicycle,326.69,214.55,249.91,167.77,0,no,calibration
+img_029.jpg,motorcycle,332.0,210.0,226.0,161.0,0,no,calibration
 img_029.jpg,bicycle,542.53,226.48,276.38,172.84,0,no,calibration
 img_029.jpg,person,347.36,188.94,21.34,28.29,3,no,calibration
 img_029.jpg,bicycle,278.35,210.92,15.77,26.9,3,no,calibration
